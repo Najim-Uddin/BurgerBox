@@ -1,21 +1,20 @@
 html, body{
 
-		height:100%;
+		height:auto;
 		width:100%;
 		margin:0px;
 		padding:0px;
 		background-color:black;
 
 }
-
+/* Main container holding all elements */
 #container{
 	margin:0px;
 	padding:0px;
-	min-height:100%;
-	position:relative;
+	height:auto;
 	width:100%;
-	background-color:green;
-	background-image:url(../images/tablebg.jpg);
+	background-color:black;
+		background-image:url(../images/tablebg.jpg);
 	background-size:100% 100%;
 }
 
@@ -25,6 +24,7 @@ p{
 		height:auto;
 	width:auto;
 }
+
 img{
 		margin:0px;
 	padding:0px;
@@ -32,7 +32,7 @@ img{
 	width:auto;
 
 }
-
+/* Header */
 #header{
 	margin:0px;
 	padding:0px;
@@ -65,14 +65,13 @@ img{
 	color:rgb(182,15,53);
 	text-decoration:none;
 }
-
+/* content container */
 #content{
 	margin:auto;
 	/* background-color:blue; */
 	width:80%;
 	height:auto;
 	text-align: center;
-	
 }
 
 #promo{
@@ -96,7 +95,7 @@ img{
 	
 
 }
-
+/* logo */
 #logoImage{
 	width:100%;
 	height:100%;
@@ -107,7 +106,7 @@ img{
 	
 
 }
-
+/* left container to hold nav*/
 #leftcol{
 	/* background-color:green; */
 	width:20%;
@@ -121,18 +120,15 @@ img{
 	
 	
 	
-	
 }
-
+/* right container to hold content */
 #rightcol{
 	/* background-color:orange; */
 	width:79%;
-	
 	display:inline-block;
-	padding-bottom:100px;
 	
 }
-
+/* nav container */
 #mainNavBg{
 	/* background-color:grey; */
 	width:100%;
@@ -140,7 +136,7 @@ img{
 	
 	
 }
-
+/* navigation */
 #mainNavBg img{
 	/* background-color:yellow; */
 	margin:0px;
@@ -186,26 +182,20 @@ img{
 	/* background-color:red; */
 	
 }
-
+/* footer */
 #footer{
 	width:100%;
 	height:100px;
-	/* max-height:100px; */
-	/* background-color:black; */
+	max-height:100px;
+	background-color:black;
 	background-image:url(../images/footerbg.jpg);
 	background-size:100% 100%;
 	text-align:center;
-	
-	
-	position:absolute;
-	bottom:0;
-	left:0;
-
+	padding-top:40px;
 }
 
 #social{
 	display:inline-block;
-	margin-top:25px;
 }
 
 #copyright{
@@ -238,7 +228,7 @@ span{
 	position:relative;
 	top:-3;
 }
-
+/* About page text */
 #aboutBB{
 	
 	height:100%;
@@ -255,7 +245,7 @@ span{
 	height:460px;
 	margin:auto;
 }
-
+/* Find us page map */
 #map{
 	border:1px solid black;
 }
